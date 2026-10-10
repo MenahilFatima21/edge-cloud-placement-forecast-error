@@ -1,0 +1,13 @@
+diff --git a/scheduler/BaGTI/src/ga.py b/scheduler/BaGTI/src/ga.py
+index 710746c..726d3f7 100644
+--- a/scheduler/BaGTI/src/ga.py
++++ b/scheduler/BaGTI/src/ga.py
+@@ -9,7 +9,7 @@ class Individual(object):
+         self.f = f
+         self.hosts = hosts
+         self.data_type = data_type
+-        self.chromosome = torch.tensor(chromosome if chromosome != [] else random.choice(dataset)[0], dtype=torch.float)
++        self.chromosome = torch.tensor(chromosome if len(chromosome) > 0 else random.choice(dataset)[0], dtype=torch.float)
+         self.fitness = self.cal_fitness() 
+         self.bounds = bounds
+   

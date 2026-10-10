@@ -1,0 +1,18 @@
+{
+  "intervals": 100,
+  "energy_total_kWh": 38.0768217389455,
+  "energy_per_interval_kWh": 0.3807682173894547,
+  "avg_response_time_s": 3111.0891839753267,
+  "p95_response_time_s": 7009.5422226720775,
+  "slo_violation_rate": 0.5207547169811321,
+  "completed_tasks": 265,
+  "avg_migration_time_s": 0.3264392686289308,
+  "total_migrations": 311,
+  "avg_wait_time_intervals": 8.852830188679246,
+  "fairness_jain": 0.6637218229427614,
+  "avg_scheduling_time_s": 1.9247235165964258,
+  "wall_clock_s": 1535.8075966835022,
+  "scheduler": "GOBI*",
+  "seed": 2,
+  "steps": 100
+}

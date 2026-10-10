@@ -1,0 +1,18 @@
+{
+  "intervals": 100,
+  "energy_total_kWh": 37.475710812836276,
+  "energy_per_interval_kWh": 0.3747571081283627,
+  "avg_response_time_s": 2413.1876340946505,
+  "p95_response_time_s": 5740.970239647711,
+  "slo_violation_rate": 0.7947761194029851,
+  "completed_tasks": 268,
+  "avg_migration_time_s": 0.6621097834328358,
+  "total_migrations": 318,
+  "avg_wait_time_intervals": 17.40671641791045,
+  "fairness_jain": 0.6773819538676529,
+  "avg_scheduling_time_s": 2.8746426648432664,
+  "wall_clock_s": 1721.1328682899475,
+  "scheduler": "A3C",
+  "seed": 3,
+  "steps": 100
+}

@@ -216,3 +216,16 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# G23 experiments
+.venv/
+__pycache__/
+*.pyc
+logs/
+results/smoke/
+baseline_COSCO/simulator/workload/datasets/
+baseline_COSCO/logs/
+baseline_COSCO/
+papers/*.pdf
+prof.out
+papers/
